@@ -491,7 +491,7 @@ function DICT:free_space()
 end
 
 ---@param dict_name string
----@param capacity integer
+---@param capacity? integer
 ---@return ngx.shared.DICT
 return function(dict_name, capacity)
     capacity = capacity or 0
