@@ -1,6 +1,7 @@
 local bit = require "bit"
 local table_nkeys = require "table.nkeys"
-local DICT = {}
+local version = '0.0.1'
+local DICT = {version = version}
 ---@class MOCK.ngx.shared.DICT.Node
 ---@field data any
 ---@field expires integer
